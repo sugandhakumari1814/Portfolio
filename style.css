@@ -207,7 +207,8 @@ section{
 /* About Styling */
 
 .about .title::after{
-    content: "who i am";
+    content: "WHO I AM?";
+    font-size:17px;
 }
 
 .about .about-content .left{
@@ -252,7 +253,8 @@ section{
     width: 540px;
 }
 .education .title::after{
-    content: "my education";
+    content: "MY EDUCATION";
+    font-size:17px;
     background: #111;
 }
 .education .education-content .card{
@@ -309,7 +311,8 @@ section{
 /* Skills Styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "WHAT I KNOW?";
+    font-size:17px;
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -360,7 +363,8 @@ section{
     background: white;
 }
 .achievement .title::after{
-    content: "what i achieved and experienced";
+    content: "WHAT I ACHIEVED AND EXPERIENCED";
+    font-size:17px;
     background: #111;
 }
 .achievement .carousel .card,
@@ -425,7 +429,8 @@ section{
 /* Project Section Stylling */
 
 .project .title::after{
-    content: "my projects";
+    content: "MY PROJECTS";
+    font-size:17px;
 }
 .project .title::before{
     width: 280px;
@@ -452,7 +457,8 @@ section{
     background: white;
 }
 .contact .title::after{
-    content: "get in touch";
+    content: "GET IN TOUCH";
+    font-size:17px;
     background: #111;
 }
 
@@ -482,17 +488,15 @@ section{
     font-size: 25px;
     color: crimson;
 }
+.contact .contact-content .row .info a{
+    color: #fff;
+}
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
     color: wheat;
 }
-
-
-
-
-
 .contact .link{
     margin: 20px;
 }
@@ -518,7 +522,12 @@ section{
 .contact .link a:hover i{
     color: wheat;
 }
-
+#profile-view{
+    padding: 10px 0;
+    color:#fff;
+    background-color: #000;
+    display: none;
+}
 footer{
     background-color: black;
     text-align: center;
@@ -653,10 +662,7 @@ footer span a:hover{
     .education .title::before{
         width: 440px;
     }
-    /* .about .about-content .left img{
-        border-radius: 15px;
-     } */
-
+   
     .about .about-content .column{
         width: 100%;
     }
@@ -759,7 +765,7 @@ footer span a:hover{
         bottom: -14px;
     }
     .achievement .title::after{
-        font-size: 15px;
+        font-size: 14px;
     }
     .contact .link a{
         font-size: 19px;
@@ -829,7 +835,7 @@ footer span a:hover{
     .education .title::after{
         bottom: -20px;
         background: black;
-        font-size: 15px;
+        font-size: 13px;
     }
     .skills .title::after{
         font-size: 15px;
@@ -843,7 +849,7 @@ footer span a:hover{
         margin-bottom: 10px;
     }
     .achievement .title::after{
-        font-size: 13px;
+        font-size: 11px;
     }
     .achievement .title::before{
         width: 240px;
